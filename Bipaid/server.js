@@ -77,7 +77,7 @@ const uploadFoto = multer({
 // ==========================================
 
 app.get("/", (req, res) => {
-    res.sendFile(path.join(__dirname, "public", "inicial.html"));
+    res.sendFile(path.join(__dirname, "public", "index.html"));
 });
 
 function exigirLogin(req, res, next) {
